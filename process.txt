@@ -1,0 +1,8 @@
+The project is started from text cleaning after merging the comments 
+from train and test datasets.The cleaning included removal of special 
+character,contraction,lemming,stemming,removal of stopwords. The cleaned
+data afterwards is used for feature extraction using Bag of words and
+TF-IDF(Term frequency inverse document frequency).The feature matrix if then
+used for classification of comments. Naive bayes classifier and Support
+vector classifier is used for prediction.Suppost Vector Classifier 
+performed better with 74.4% accuracy in validation set.
